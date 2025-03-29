@@ -257,6 +257,40 @@ include "./pages/db.php";
             </div>
         </div>
     </div>
+
+    <!-- ======================= Subscription Bar =============================== -->
+    <div class="relative bg-orange-100 rounded-3xl p-10 w-full max-w-7xl mx-auto mb-[12rem]">
+        <div class="p-12">
+            <!-- Judul -->
+            <h2 class="text-[#5E6282] text-3xl md:text-4xl font-semibold text-center">
+                Subscribe to get information, latest news and other interesting offers about Jadoo
+            </h2>
+            <br>
+            <!-- Form Input Email -->
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 mt-6 ">
+                <div class="relative w-full max-w-md">
+                    <input type="email" placeholder="Your email"
+                        class="w-full p-3 pl-10 rounded-lg border border-gray-300 text-gray-700 focus:ring-orange-400 focus:border-orange-400 bg-white">
+                    <div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+                        <svg class="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 12c0 3.866-3.134 7-7 7S2 15.866 2 12s3.134-7 7-7 7 3.134 7 7zm4-3v6m-3-3h6">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <button
+                    class="bg-orange-500 hover:bg-orange-600 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md">
+                    Subscribe
+                </button>
+            </div>
+            <div class="absolute top-[-51px] right-0 p-4">
+                <img src="/KosPelitaHarapan/assets/pesawat.png" alt="">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script>
@@ -266,7 +300,7 @@ include "./pages/db.php";
     function switchTestimonial() {
         testimonials[currentIndex].classList.remove("active");
         testimonials[currentIndex].classList.add("slide-out");
-        
+
         currentIndex = (currentIndex + 1) % testimonials.length;
         testimonials[currentIndex].classList.remove("hidden", "slide-out");
         testimonials[currentIndex].classList.add("active", "slide-in");
