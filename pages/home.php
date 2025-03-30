@@ -290,6 +290,7 @@ include "./pages/db.php";
             </div>
         </div>
     </div>
+    <?php include "./Components/footer.php"; ?>
 
 </body>
 
