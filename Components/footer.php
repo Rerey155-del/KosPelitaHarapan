@@ -1,4 +1,4 @@
-<footer class="backdrop-blur-md" data-aos="fade-up" >
+<footer class="backdrop-blur-md" data-aos="fade-up">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="grid grid-cols-3 text-gray-500 font-semibold">
             <div class="flex flex-col space-y-4 ">

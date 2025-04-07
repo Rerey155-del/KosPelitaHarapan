@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
 <?php
 session_start();
 include "./pages/db.php";
@@ -7,10 +9,11 @@ $request = trim(str_replace("/KosPelitaHarapan", "", parse_url($_SERVER["REQUEST
 
 // Definisikan routing yang sesuai
 $routes = [
-    "" => "pages/home.php", // Halaman utama
+    "" => "pages/home.php", 
     "home" => "pages/home.php",
-    "koneksi" => "pages/db.php", // Ubah agar bisa diakses dengan /koneksi
+    "koneksi" => "pages/db.php", 
     "info" => "pages/info.php",
+    "login" => "pages/login.php",
 ];
 
 // Cek apakah request ada dalam daftar endpoint
