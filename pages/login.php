@@ -13,7 +13,7 @@
         <div class="relative">
             <img src="/KosPelitaHarapan/assets/avatar2.png" alt="Decoration"
                 class="absolute object-cover" style="width: 27rem;">
-            <div class="min-h-screen grid grid-cols-2 gap-x-16 justify-center" style="padding: 12rem; padding-top:5rem">
+            <div class="min-h-screen grid grid-cols-2 gap-x-16 justify-center items-center" style="padding: 12rem; padding-top:5rem">
                 <div class="border border-gray-200 rounded-lg p-8 bg-white shadow-md">
                     <form data-aos="zoom-in-right" action="/auth/login" method="POST" class="w-96 flex flex-col justify-center items-center">
                         @csrf
