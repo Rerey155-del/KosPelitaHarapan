@@ -14,6 +14,7 @@ $routes = [
     "koneksi" => "pages/db.php", 
     "info" => "pages/info.php",
     "login" => "pages/login.php",
+    "products" => "pages/users/product.php",
 ];
 
 // Cek apakah request ada dalam daftar endpoint
